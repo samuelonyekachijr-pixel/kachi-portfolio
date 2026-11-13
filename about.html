@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meet Samuel Onyekachi Jnr, a junior front-end developer and graphic designer.">
+    <title>About | Kachi Jnr</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="about.js" defer></script>
+</head>
+
+<body id="top">
+    <header class="site-header">
+        <div class="scroll-progress" aria-hidden="true"></div>
+
+        <div class="container header-inner">
+            <a class="brand" href="#top">
+                <img src="img/kachis logo.png" alt="">
+                <span>Kachi <strong>Jnr.</strong></span>
+            </a>
+
+            <nav aria-label="Page sections">
+                <a href="index.html">Home</a>
+                <a href="Store.html">Store</a>
+                <a href="#services">Services</a>
+                <a href="#skills">Skills</a>
+            </nav>
+            <span onclick="switchDarkMode()" class="darkmode"></span>
+            <!-- <a class="header-contact" href="contact.html">Contact
+                <i class="fa-solid fa-envelope"></i>
+                <span aria-hidden="true"></span>
+            </a> -->
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <section class="hero" id="about" aria-labelledby="about-title">
+            <div data-reveal>
+                <p class="eyebrow">About Me</p>
+                <h1 id="about-title">Samuel<br>Onyekachi <em>Jnr.</em></h1>
+
+                <p class="role">
+                    Junior front-end developer
+                    <span aria-hidden="true">|</span>
+                    Graphic designer
+                </p>
+
+                <p class="intro">
+                    I build responsive web pages with HTML and CSS and design
+                    graphics for brands and social media. I’m currently learning
+                    JavaScript and Tailwind CSS to add more interactivity and
+                    build more consistent layouts. Also learning about ai and how
+                    to use it in my skill.
+                </p>
+
+                <div class="actions">
+                    <a class="button button-gold" href="contact.html">
+                        Let’s talk <i class="fa-solid fa-envelope"></i>
+                        <span aria-hidden="true"></span>
+                    </a>
+                    <a class="button button-outline" href="#services">
+                        Explore services <i class="fa-solid fa-rocket"></i>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+            </div>
+
+            <figure class="portrait" data-reveal style="--delay: 120ms">
+                <div class="portrait-art">
+                    <!-- <span class="portrait-letter" aria-hidden="true">K.</span> -->
+                    <img src="img/tech boy.png" alt="Illustration of a young developer">
+                </div>
+                <figcaption>
+                    <span>Ai Image of Kachi Jnr</span>
+                </figcaption>
+            </figure>
+        </section>
+
+        <section class="page-section" id="services" aria-labelledby="services-title">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">My Services</p>
+                <h2 id="services-title">What I can help you build</h2>
+            </div>
+
+            <div class="services-grid">
+                <article class="card" data-reveal>
+                    <!-- <span class="" aria-hidden="true">&lt;/&gt;</span> -->
+                     <i class="fa-brands fa-html5"></i>
+                    <h3>Responsive web pages</h3>
+                    <p>
+                        Landing pages, portfolios, and simple business websites
+                        built with HTML and CSS for desktop and mobile screens.
+                    </p>
+                </article>
+
+                <article class="card" data-reveal style="--delay: 90ms">
+                    <i class="fa-solid fa-palette"></i>
+                    <!-- <span class="card-icon" aria-hidden="true">▤</span> -->
+                    <h3>Website styling</h3>
+                    <p>
+                        Give an existing page clearer typography, better spacing,
+                        responsive layouts, and subtle CSS animations.
+                    </p>
+                </article>
+
+                <article class="card" data-reveal style="--delay: 180ms">
+                    <i class="fa-solid fa-laptop-code"></i>
+
+                    <!-- <span class="card-icon" aria-hidden="true">✦</span> -->
+                    <h3>Graphic design</h3>
+                    <p>
+                        Social media graphics, flyers, and brand visuals with a
+                        consistent color palette and type style.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="page-section" id="skills" aria-labelledby="skills-title">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow">My Skills</p>
+                <h2 id="skills-title">My toolkit</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="card" data-reveal>
+                    <h3 class="eyebrow">Working with</h3>
+                    <ul class="skill-list">
+                        <li><strong>HTML5</strong><span>Page structure and semantic markup</span></li>
+                        <li><strong>CSS3</strong><span>Grid, Flexbox, and responsive layouts</span></li>
+                        <li><strong>Graphic design</strong><span>Typography, color, and composition</span></li>
+                    </ul>
+                </article>
+
+                <article class="card" data-reveal style="--delay: 120ms">
+                    <h3 class="eyebrow">Currently learning</h3>
+                    <ul class="skill-list">
+                        <li><strong>JavaScript</strong><span>DOM events and page interactions</span></li>
+                        <li><strong>Tailwind CSS</strong><span>Utility classes and responsive styling</span></li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="page-section ">
+              <div class="section-heading" data-reveal>
+                <p class="eyebrow">My Almamaters</p>
+                <h2 id="skills-title">My Schools</h2>
+            </div>
+            <div class="skills-grid school">
+                <article class="card" data-reveal>
+                    <h3 class="eyebrow">Education</h3>
+                    <ul class="skill-list">
+                        <li><strong>Primary</strong><span><a href="https://fabconschools.com" target="_blank">FABCON</a></span></li>
+                        <li><strong>Secondary School</strong><span>
+                        <a href="https://dazzlingjewelsinternationalschool.com" target="_blank">Dazzling Jewels International Schools</a>
+                    </span>
+                </li>
+                    </ul>
+                </article>
+
+                <article class="card" data-reveal style="--delay: 120ms">
+                    <h3 class="eyebrow">Current School</h3>
+                    <ul class="skill-list">
+                        <li><strong>University</strong><span><a href="https://futo.edu.ng">Fedral University Of Technology Owerri</a></span></li>
+                        <li><strong>Department</strong><span>Infomation Technology</span></li>
+                    </ul>
+                </article>
+            </div>
+
+        </section>  
+
+    <!-- <section class="page-section" id="skills" aria-labelledby="skills-title">
+            <div class="section-heading" data-reveal>
+                <p class="eyebrow"></p>
+                <h2 id="skills-title">My toolkit</h2>
+            </div>
+
+            <div class="skills-grid">
+                <article class="card" data-reveal>
+                    <h3 class="eyebrow">Working with</h3>
+                    <ul class="skill-list">
+                        <li><strong>HTML5</strong><span>Page structure and semantic markup</span></li>
+                        <li><strong>CSS3</strong><span>Grid, Flexbox, and responsive layouts</span></li>
+                        <li><strong>Graphic design</strong><span>Typography, color, and composition</span></li>
+                    </ul>
+                </article>
+
+                <article class="card" data-reveal style="--delay: 120ms">
+                    <h3 class="eyebrow">Currently learning</h3>
+                    <ul class="skill-list">
+                        <li><strong>JavaScript</strong><span>DOM events and page interactions</span></li>
+                        <li><strong>Tailwind CSS</strong><span>Utility classes and responsive styling</span></li>
+                    </ul>
+                </article>
+            </div>
+    </section> -->
+
+    <section class="work-showcase" id="projects" aria-label="Portfolio showcase">
+    <div class="work-layout">
+        <div class="work-details">
+            <div class="work-tabs" role="group" aria-label="Choose a website project">
+                <button type="button" data-project="klib" aria-pressed="true">
+                    K-Lib
+                </button>
+
+                <button type="button" data-project="estate" aria-pressed="false">
+                    Estate Website
+                </button>
+
+                <button type="button" data-project="about" aria-pressed="false">
+                    About Page
+                </button>
+       
+                <button type="button" data-project="first" aria-pressed="false">
+                    First Work
+                </button>
+
+                <button type="button" data-project="health" aria-pressed="false">
+                    Health Website
+                </button>
+            </div>
+
+            <div class="work-summary" aria-live="polite">
+                <h2 id="work-title">K-Lib</h2>
+
+                <h3>Project story</h3>
+                <p id="work-story">
+                    K-Lib is just one of my practice website
+                </p>
+
+                <h3>The goal</h3>
+                <p id="work-goal">
+                    Make courses easy to discover and preview on a phone.
+                </p>
+            </div>
+
+           
+        </div>
+
+        <figure class="work-phone">
+            <div class="work-phone-screen">
+                <iframe id="work-preview"
+                        src="./CAMP%20CODE/k-lib.html"
+                        title="Interactive preview of K-Lib">
+                </iframe>
+            </div>
+        </figure>
+    </div>
+
+    
+    
+
+</section>  
+    
+    <section class="page-section contact-panel" aria-labelledby="contact-title" data-reveal>
+            <div>
+                <p class="eyebrow">Get in touch</p>
+                <h2 id="contact-title">Have a project in mind?</h2>
+                <p class="intro">Tell me what you’d like to build or design.</p>
+            </div>
+
+            <a class="button button-gold" href="contact.html">
+                Contact me  <i class="fa-solid fa-envelope"></i>
+            </a>
+        </section>    
+  
+
+    <footer class="container site-footer">
+        <span>&copy;Samuel Onyekachi Jnr 2026.</span>
+        <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

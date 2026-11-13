@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kachi Jnr, front-end developer portfolio.">
+  <title>Kachi Jnr | Front-End Developer</title>
+  <link rel="stylesheet" href="kachi.css">
+  <script src="kachi.js" defer></script>
+</head>
+<body>
+  <header class="portfolio-header" id="home">
+    <div class="topbar">
+      <a class="brand" href="#">
+        <img src="img/kachis logo.png" alt="">
+        <span>Kachi Jnr</span>
+      </a>
+
+      <button class="menu-toggle" type="button"
+        aria-expanded="false" aria-controls="site-nav" hidden>
+        =
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="about.html">About</a>
+        <a href="other docs/Samuel_Onyekachi_Jr_CV-1.pdf">Portfolio</a>
+        <!-- EDIT HERE: replace the example email with yours -->
+        <a href="contact.html">Contact</a>
+        <a href="store.html">Store&Merch</a>
+      </nav>
+    </div>
+
+    <section class="hero" id="intro" aria-labelledby="hero-title">
+      <div class="hero-left">
+        <!-- EDIT HERE: write your name, role, and short introduction -->
+        <h1 id="hero-title"> Samuel Kachi Jnr<span>.</span></h1>
+        <p class="role"> Junior Front-End Developer| Graphic Designer </p>
+        <p class="intro">
+          I build responsive websites with clean layouts, thoughtful
+          interactions, and interfaces that feel at home on any screen.
+          I major in Html, CSS, Javascript.
+        </p>
+      
+
+
+        <div class="hero-actions">
+          <!-- EDIT HERE: use the same email as in the navigation -->
+          <a class="button button-primary" href="mailto:samuelonyekachijr@gmail.com">
+            Let's talk <span aria-hidden="true"></span>
+          </a>
+          <a class="button button-outline" href="phone.html">
+            My Works</a>
+        </div>
+      </div>
+
+      <figure class="portrait">
+        <img src="img/kachijnr.jpg" alt="Kachi Jnr wearing a gold shirt"
+          width="1151" height="2047">
+      </figure>
+    </section>
+
+    <section class="skills" id="skills" aria-label="Front-end skills">
+      <ul class="skill-grid">
+        <li class="skill">
+          <span class="skill-icon" aria-hidden="true">&lt;/&gt;</span>
+          <div>
+            <h2>Semantic HTML</h2>
+            <p>Clear page structure and accessible markup.</p>
+          </div>
+        </li>
+
+        <li class="skill">
+          <span class="skill-icon" aria-hidden="true">#</span>
+          <div>
+            <h2>Responsive CSS</h2>
+            <p>Layouts that adapt from phones to wide screens.</p>
+          </div>
+        </li>
+
+        <li class="skill">
+          <span class="skill-icon" aria-hidden="true">JS</span>
+          <div>
+            <h2>JavaScript</h2>
+            <p>Interactive menus and components that respond to users.</p>
+          </div>
+        </li>
+      </ul>
+
+      <p class="toolkit"><strong>Toolkit</strong> HTML5 · CSS3 · JavaScript . Tailwind CSS</p>
+    </section>
+  </header>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/kachis logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Kachi.Org</title>
+</head>
+<style>
+    /* Center the entire group on the page */
+body {
+    margin: 0;
+    min-height: 100vh;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+}
+
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(0.75rem, 3vw, 1.75rem);
+    width: min(70rem, calc(100% - 2rem));
+    padding-block: 2rem;
+}
+
+.social-icons .icons {
+    display: grid;
+    justify-items: center;
+    align-content: start;
+    gap: 0.75rem;
+    width: clamp(5rem, 13vw, 8rem);
+    padding: 0.5rem 0;
+    border-radius: 1.5rem;
+    color: inherit;
+    text-decoration: none;
+    text-align: center;
+}
+
+.social-icons .icons i {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    aspect-ratio:1;
+    border-radius:1.5rem;
+    /* background: color-mix(in srgb, currentColor 5%, transparent);
+    box-shadow: 0 0 0 1px color-mix(in srgb, currentColor 16%, transparent); */
+    background:rgb(230, 229, 229);
+    box-shadow:0 15px 35px rgba(0, 0, 0, 0.25);
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    transition: transform 180ms ease, background-color 180ms ease;
+}
+
+.social-icons .icons span {
+    font: 600 0.9rem/1.2 system-ui, sans-serif;
+}
+
+.social-icons .icons:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+.social-icons {
+    --slide-distance: clamp(8px, 3vw, 40px);
+    width: min(70rem, calc(100% - 2rem - 2 * var(--slide-distance)));
+    animation: slide-icons 7s ease-in-out infinite alternate;
+}
+
+@keyframes slide-icons {
+    from {
+        transform: translateX(calc(-1 * var(--slide-distance)));
+    }
+
+    to {
+        transform: translateX(var(--slide-distance));
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .social-icons {
+        animation: none;
+    }
+}
+
+@media (hover: hover) {
+    .social-icons .icons:hover i {
+        transform: translateY(-5px);
+        background: color-mix(in srgb, currentColor 12%, transparent);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .social-icons .icons i {
+        transition: none;
+    }
+
+    .social-icons .icons:hover i {
+        transform: none;
+    }
+}
+</style>
+<span>
+    <a href="index.html">Home</a>
+    <a href="about.html">about</a>
+</span>
+<div class="social-icons">
+    <a href="https://www.instagram.com/michaeloyekachiebube" target="_blank" class="icons">
+        <i class="fa-brands fa-instagram"></i>
+    </a>
+
+     <a href="https://www.facebook.com/samuel kachi jnr" target="_blank" class="icons">
+        <i class="fa-brands fa-facebook"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/samuel onyekachi jr" target="_blank" class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+
+    <a href="https://www.youtube.com/@samuelOnyekachijr" target="_blank" class="icons">
+        <i class="fa-brands fa-youtube"></i>
+    </a>
+
+    <a href="https://x.com/samuelkachijnr" target="_blank" class="icons">
+        <i class="fa-brands fa-x-twitter"></i>
+    </a>
+
+     <a href="https://github.com/samuelOnyekachijr" target="_blank" class="icons">
+        <i class="fa-brands fa-github"></i>
+    </a>
+
+    <a href="https://wa.me/2348108296144 " target="_blank" class="icons"
+        > <i class="fa-brands fa-whatsapp"></i>
+    </a>
+</div>
+
+</html>

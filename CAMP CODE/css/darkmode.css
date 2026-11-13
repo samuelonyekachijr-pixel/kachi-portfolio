@@ -1,0 +1,54 @@
+:root {
+  --dark-blue: rgb(2, 18, 16);
+  --dark-green: rgb(1, 18, 16);
+}
+
+
+
+
+body.dark-mode {
+    color: white;
+}
+
+body.dark-mode header {
+  background-color: var(--dark-blue);
+  color: white;
+  border: 1px solid rgb(1, 18, 15);
+}
+
+body.dark-mode li a {
+  color: white;
+}
+
+body.dark-mode li a:hover {
+  color: var(--dark-blue);
+}
+
+body.dark-mode .button {
+  color: var(--dark-blue);
+}
+
+body.dark-mode .container{
+    background-color: var(--dark-blue);
+}
+
+body.dark-mode footer{
+    background-color: rgb(57, 122, 116) !important;
+}
+
+body.dark-mode header img {
+    filter: invert();
+}
+body.dark-mode .support{
+  position: fixed;
+  bottom: 50px;
+  left: 30px;
+  min-height: 40px;
+  min-width: 40px;
+  border: 0.5px solid var(--dark-green);
+  border-radius: 50%;
+  background-color:white;
+}
+body.dark-mode .main-footer{
+  background-color:var(--dark-blue);
+}

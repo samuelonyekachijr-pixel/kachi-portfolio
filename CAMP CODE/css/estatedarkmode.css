@@ -1,0 +1,85 @@
+:root{
+    --evergren:#010f08;
+    --moss-green:#122319;
+    --leaf-:#80bc0a;
+    --leafii-:#53750e;
+}
+body.dark-mode{
+    color:white;
+
+}
+body.dark-mode header{
+    background-color:var(--evergren);
+    color:white;
+}
+body.dark-mode header span{
+    background-color:white;
+    background-image:url(img/ham&span.png);
+    background-size:contain;
+    background-repeat:no-repeat;
+}
+body.dark-mode .hero h2{
+   text-shadow:2px 2px 8px rgba(3, 1, 1, 0.9);
+}
+body.dark-mode .hero h2 span{
+    color:rgb(254, 182, 1);
+}
+body.dark-mode .hero .buttons button{
+    background-color:rgb(41, 66, 2);
+    color:white;
+    border:none;
+    border-radius:10px;
+}
+body.dark-mode .boxes section{
+    background-color:var(--moss-green);
+}
+body.dark-mode .boxes section p{
+    text-align:left;
+    color:rgb(226, 226, 226);
+}
+body.dark-mode .boxes section button{
+    background-color:rgb(44, 83, 5);
+}
+body.dark-mode header li a:hover{
+   border: 2px dotted white;
+   border-radius:20px 20px 0 20px ;
+   width:12px;
+   color:#A3B18A;
+   transform: translateY(-5px);
+}
+body.dark-mode .main-content article{
+    transition:1.5s;
+    animation: forwards;
+    box-shadow:0 15px 35px rgb(3, 2, 2);
+    background-color:var(--moss-green);
+    padding:40px;
+    border-radius:10px;
+    font-family:'Times New Roman';
+}
+body.dark-mode .main-content article p{
+    text-align:left;
+    color:seashell;
+}
+body.dark-mode .main-content article p a:hover{
+    border-bottom:3px dotted #53750e72;
+}
+body.dark-mode .main-content span{
+    border:7px solid var(--moss-green);
+}
+body.dark-mode .main-content span::before{
+    background-color:var(--leafii-);
+}
+body.dark-mode .main-content span::after{
+    background-color:var(--leaf-);
+    border-color:var(--moss-green);
+}
+body.dark-mode .search-bar{
+    background-color:var(--moss-green);
+}
+body.dark-mode .search-bar input{
+    background-color:rgb(221, 219, 219);
+}
+body.dark-mode .search-bar button{
+   box-shadow:0 15px 35px rgba(0, 0, 0, 0.25);
+   background-color:var(--leafii-);
+}

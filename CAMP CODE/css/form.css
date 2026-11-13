@@ -1,0 +1,133 @@
+body{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:10%;
+margin:0;
+background-image: url(img/Yellow\ and\ black\ wallpaper.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-clip: border-box;
+}
+
+
+form{
+    border:1px solid silver;
+    border-radius:10px;
+    margin:10px;
+    color:white;
+    width:50%;
+    padding:10px;
+    height:85vh;
+    padding-bottom:7px;
+}
+input{
+    width:100%;
+    padding:12px;
+    margin-bottom: 10px;
+    box-sizing:border-box;
+    outline: none;
+    border-radius:10px;
+    background-color: rgb(20, 17, 17);
+    border: 1px solid grey;
+}
+.social-btn{
+    background-color: rgb(21, 21, 21);
+    border:0.5px solid silver;
+    border-radius:20%;
+    padding:5px;
+    margin:10px;
+    background-color:rgb(36, 36, 36);
+    width:20%;
+}
+label{
+    margin:10px;
+    font-weight:bold;
+}
+::placeholder{
+    color:whitesmoke;
+    
+}
+.logo{
+    width:50px;
+    
+    align-items: center;
+    padding:10px;
+}
+h3{
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom:0;
+}
+.pos{
+    text-align: center;
+    color:grey;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0%;
+}
+
+a[href="#von"]{
+    color:rgb(248, 179, 4);
+    text-decoration:none;
+    right:14px;
+    font-size:10px;
+}
+.span-l2{
+    border-left: 1px solid rgb(203, 42, 42);
+}
+a[href="#k"]{
+    color:rgb(248, 179, 4);
+    text-decoration:none;
+}
+a:hover{
+    color:rgb(229, 10, 10);
+}
+.login{
+    border:1px solid white;
+    border-radius:10px;
+    background-color:rgb(247, 178, 3);
+    color:rgb(0, 0, 0);
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
+    box-sizing:border-box;
+}
+
+a[href="#ach"]{
+    color:whitesmoke;
+    text-decoration:none;
+}
+.left-grid{
+    width:200px;
+    height:100vh;
+    border:0.5px solid black;
+    padding:10px ;
+    left:10px;
+    background-image: url(img/room.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.vertical{
+    border-left:5px solid goldenrod;
+    border-top-left-radius:5px;
+    width:10vh;
+}
+.left-side{
+    text-align:center;
+    color:white;
+    align-items: baseline;
+}
+.left-p{
+    color:white;
+    text-align: justify;
+}
+.copyright{
+    color:white;
+    text-align: justify;
+}
+.align-x{
+    position: absolute;
+    bottom:0;
+    font-size:small;
+    text-shadow: rgb(136, 26, 26);
+}
